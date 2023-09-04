@@ -1,12 +1,6 @@
 
 const AWS = require('aws-sdk');
 
-const s3 = new AWS.S3({
-    accessKeyId: 'AKIAUYATD66FDH6WNGXY',
-    secretAccessKey: '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'
-});
-
-
 const bucketName = 'bucket.for.developers';
 const fs = require('fs');
 const path = require('path');
